@@ -1,31 +1,33 @@
 # vscode-config
 
 ### Install Eslint with airbnb dependencies
-* First step install _Eslint and Prettier - Code Formater_ extensions
+* First step install _Eslint and Prettier - Code Formater_ extensions from the store on VS CODE
+* Then run this command on root folder
 ```
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 ```
-* Then run in root folder:
+* This one too:
 ```
 npx install-peerdeps --dev eslint-config-airbnb
 ```
 
-* Create file configurations:
- *Create a file named *.prettierrc*
+* Create a new file configuration:
+ * Create a file named *.prettierrc*
  then type:
  ```
  {
   "singleQuote": true
  }
  ```
- * And save. After this, run the command below in root folder
+ * And save. After this run the command below in root folder
  ```
  sudo npm i -g eslint
  ```
- * Type eslint --init in terminal to configurate file
+ * Type eslint --init in terminal to configurate file and choose the options below (can be other depending on your project)
  To check syntax and find problems;
  JavaScript modules(import/export) --> React, view;
  CommonJS --> Node.JS
+ 
 * After all choices, will create a file named .eslintrc.json. Open it and overwrite with command below
 ```
 {
@@ -69,8 +71,6 @@ npx install-peerdeps --dev eslint-config-airbnb
 }
 ```
 
-
-
 ### Settings.json
 * Type Ctrl + Shift + P then type **Open Settings (JSON)**
 Changes:
@@ -81,10 +81,8 @@ Changes:
   * "editor.cursorBlinking": "smooth" --> blink, smooth, phase, expand, or solid
   * "editor.mouseWheelZoom": true,
   
-  
 ### Customization
 * Material Icon Themes
-
 
 ### Packages
 * Bracket Pair Colorizer
