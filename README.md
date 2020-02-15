@@ -12,7 +12,7 @@ module.exports={
  "extends" : "airbnb-base"
 }
 ```
-* Then open the extension page with **Ctrl + Shift + x** then search for EsLint and download the recommended extension then restart vsCode.
+* Then open the extension page with **Ctrl + Shift + X** then search for EsLint and download the recommended extension then restart vsCode.
 
 ### Settings.json
 * Type Ctrl + Shift + P then type **Open Settings (JSON)**
@@ -31,6 +31,10 @@ Changes:
 
 ### Packages
 * Bracket Pair Colorizer
+* Path Intellisence
+* Visual Studio Intellicode
+* Git Lens
+* Better Comments
 
 
 
