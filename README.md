@@ -90,6 +90,7 @@ Changes:
 * Visual Studio Intellicode
 * Git Lens
 * Better Comments
+* Debugger for Chrome
 
 
 ### Shortcuts!
