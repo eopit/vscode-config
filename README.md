@@ -74,13 +74,19 @@ npx install-peerdeps --dev eslint-config-airbnb
 ### Settings.json
 * Type Ctrl + Shift + P then type **Open Settings (JSON)**
 Changes:
-  * "editor.formatOnPaste": true 
-  * "editor.formatOnSave": true
-  * "workbench.editor.highlightModifiedTabs": true
-  *  "editor.cursorStyle": "block"  --> block, block-outline, line, line-thin, underline, or underline-thin
-  * "editor.cursorBlinking": "smooth" --> blink, smooth, phase, expand, or solid
-  * "editor.mouseWheelZoom": true,
-  
+```
+  {
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.mouseWheelZoom": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen",
+}
+```
 ### Customization
 * Material Icon Themes
 
