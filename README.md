@@ -15,9 +15,10 @@ npx install-peerdeps --dev eslint-config-airbnb
  * Create a file named *.prettierrc*
  then type:
  ```
- {
-  "singleQuote": true
- }
+{
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
  ```
  * And save. After this run the command below in root folder
  ```
