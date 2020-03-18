@@ -76,16 +76,19 @@ npx install-peerdeps --dev eslint-config-airbnb
 * Type Ctrl + Shift + P then type **Open Settings (JSON)**
 Changes:
 ```
-  {
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "editor.mouseWheelZoom": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen",
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.mouseWheelZoom": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen"
 }
 ```
 ### Customization
