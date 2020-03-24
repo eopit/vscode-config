@@ -105,4 +105,5 @@ Changes:
 
 ### Shortcuts!
 Alt + Up or Down --> Change line position
+
 Alt + Shift + Up or Down --> Duplicate line or selection
